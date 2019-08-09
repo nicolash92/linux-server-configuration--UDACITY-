@@ -32,7 +32,7 @@ project for Udacity, AWS lightsail ubuntu server hosting the item-catalog web ap
    - set `PermitRootLogin` to `no`
    - ran into `unable to resolve host`
      [followed these instructions to solve](https://forums.aws.amazon.com/thread.jspa?threadID=104765)
-     Confirm by running `ssh -i /c/Users/shark/.ssh/udacity_key.rsa -p 2200 grader@35.160.137.6`
+     Confirm by running `ssh -i /c/Users/shark/.ssh/grader_rsa -p 2200 grader@35.160.137.6`
 
 4) config ufw
 
